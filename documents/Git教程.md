@@ -61,3 +61,33 @@
 
 ##### 3.4.2 提交时输入提交信息
 * 命令：``git commit -m "commit-message" <filename>``
+
+#### 3.5 查看历史记录
+* 命令：``git log``
+  * 效果：
+
+    ![git-log显示效果](../pictures/Git教程/git-log显示效果.png)
+
+  * 多屏显示控制方式
+    * 空格：向下翻页
+    * b：向上翻页
+    * q：退出
+
+* 命令：``git log --pretty=oneline``
+  * 效果：
+
+    ![git_log_--pretty=oneline显示效果](../pictures/Git教程/git_log_--pretty=oneline显示效果.png)
+
+* 命令：``git log --oneline``
+  * 效果：
+
+    ![git_log_--oneline显示效果](../pictures/Git教程/git_log_--oneline显示效果.png)
+
+* 命令：``git reflog``
+  * 效果：
+
+    ![git_reflog显示效果](../pictures/Git教程/git_reflog.png)
+
+* 注：
+  * (HEAD -> master)代表该版本为当前版本，HEAD是个指针，指向当前版本
+  * HEAD@{移动到当前版本需要的步数}
