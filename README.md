@@ -35,7 +35,7 @@
 
 ### linux
 
-[linux to go安装教程](documents/linux to go安装教程.md)
+[linux to go安装教程](documents/linux_to_go安装教程.md)
 
 [linux常用命令快查](documents/linux常用命令快查.md)
 
