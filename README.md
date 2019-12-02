@@ -19,9 +19,9 @@
 
 ### Git版本控制
 
-[Windows下安装Git--简化版](documents\Windows下安装Git--简化版.md)
+[Windows下安装Git--简化版](documents/Windows下安装Git--简化版.md)
 
-[Windows下安装Git--详细版](documents\Windows下安装Git--详细版.md)
+[Windows下安装Git--详细版](documents/Windows下安装Git--详细版.md)
 
 [Git教程](documents/Git教程.md)
 
