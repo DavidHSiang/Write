@@ -25,6 +25,8 @@
 
 [Git教程](documents/Git教程.md)
 
+[Eclipse下使用Git](documents/Eclipse下使用Git.md)
+
 -----
 
 ### C语言
