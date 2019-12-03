@@ -30,3 +30,11 @@
 [C-零碎知识点整理](documents/C-零碎知识点整理.md)
 
 [C-转义字符&反斜杠](documents/C-转义字符&反斜杠.md)
+
+-----
+
+### linux
+
+[linux to go安装教程](documents/linux to go安装教程.md)
+
+[linux常用命令快查](documents/linux常用命令快查.md)
