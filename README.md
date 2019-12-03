@@ -38,3 +38,17 @@
 [linux to go安装教程](documents/linux to go安装教程.md)
 
 [linux常用命令快查](documents/linux常用命令快查.md)
+
+-----
+
+### 操作系统
+
+[搭建自己的操作系统](documents/搭建自己的操作系统.md)
+
+-----
+
+### 快查
+
+[linux常用命令快查](documents/linux常用命令快查.md)
+
+[编程相关英语单词快查](documents/编程相关英语单词快查.md)
