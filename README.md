@@ -20,3 +20,13 @@
 ### Git版本控制
 
 [1. Git教程](documents/Git教程.md)
+
+-----
+
+### C语言
+
+[C-格式化占位符](documents/C-格式化占位符.md)
+
+[C-零碎知识点整理](documents/C-零碎知识点整理.md)
+
+[C-转义字符&反斜杠](documents/C-转义字符&反斜杠.md)
