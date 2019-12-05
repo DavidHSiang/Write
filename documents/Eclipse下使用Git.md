@@ -204,3 +204,45 @@ target
 
 1. 冲突文件→右键→Team→MergeTool
 2. 修改完成后正常执行 add/commit 操作即可
+
+### 10. 分支实战
+
+#### 工程1：创建分支，在新分支下修改文件，并上传到远程库
+
+1. 创建一个新的分支：工程 -> 右键 -> Team -> Commit -> Git
+2. 为分支命名
+
+![为新创建的分支命名](../pictures/Eclipse下使用Git/为新创建的分支命名.png)
+
+3. 创建好分支后，eclipse会自动切换到新的分区。在新的分区下对文件进行修改。
+4. 将修改好的文件提交并上传到远程库：工程 -> 右键 -> Team -> Repository -> Pull Branch "分支名"
+
+#### 工程2：拉取工程1上传后的远程库，
+
+1. 拉取远程库
+2. 切换到工程1新建的分支：工程 -> 右键 -> Team -> Switch To -> Other
+3. 选择远程库中的hot_fix分支
+
+![分支实战-工程2切换分支](../pictures/Eclipse下使用Git/分支实战-工程2切换分支.png)
+
+4. 选择Check out as New Local Branch(在本地创建新的分支)
+
+![入分支创建新分支](../pictures/Eclipse下使用Git/分支实战-导入分支创建新分支.png)
+
+5. 检出远程新分支，finish
+
+![检出远程新分支](../pictures/Eclipse下使用Git/检出远程新分支.png)
+
+6. 换回分支master：工程 -> 右键 -> Team -> Switch To -> master
+
+7. 合并分支：工程 -> 右键 -> Team -> Merge
+
+8. 选择本地的要合并的分支
+
+![选择要合并的分支](../pictures/Eclipse下使用Git/选择要合并的分支.png)
+
+9. 合并结果
+
+![合并结果](../pictures/Eclipse下使用Git/合并结果.png)
+
+合并成功后，把master推送到远程
