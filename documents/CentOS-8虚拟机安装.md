@@ -101,4 +101,24 @@
 
 ![正在安装](../pictures/CentOS-8虚拟机安装/正在安装.png)
 
-8. 
+8. 设置Root账号密码
+
+![选择根密码](../pictures/CentOS-8虚拟机安装/选择根密码.png)
+
+![设置Root密码](../pictures/CentOS-8虚拟机安装/设置Root密码.png)
+
+9. 完成配置，带最后的安装完成后，重启虚拟机
+
+![完成配置](../pictures/CentOS-8虚拟机安装/完成配置.png)
+
+10. 点击License Information，认证证书
+
+![认证证书](../pictures/CentOS-8虚拟机安装/认证证书.png)
+
+11. 同意协议，并结束配置
+
+![同意协议](../pictures/CentOS-8虚拟机安装/同意协议.png)
+
+### 安装完成
+
+![安装完成](../pictures/CentOS-8虚拟机安装/安装完成.png)
