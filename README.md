@@ -39,6 +39,8 @@
 
 [linux to go安装教程](documents/linux_to_go安装教程.md)
 
+[CentOS-8虚拟机安装](documents/CentOS-8虚拟机安装.md)
+
 [linux常用命令快查](documents/linux常用命令快查.md)
 
 -----
