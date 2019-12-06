@@ -10,7 +10,7 @@
 
 在官网的[安装说明](https://about.gitlab.com/installation/)中选择对应的操作系统
 
-执行官网给出的相应的文件
+执行官网给出的相应的命令
 
 >例：CentOS6/7
 
