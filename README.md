@@ -33,6 +33,10 @@
 
 [Eclipse下使用Git](documents/Eclipse下使用Git.md)
 
+[GitLab服务器搭建过程](documents/GitLab服务器搭建过程.md)
+
+[在CentOS-7虚拟机下安装Gitlab服务器](documents/在CentOS-7虚拟机下安装Gitlab服务器.md)
+
 -----
 
 ### linux
@@ -40,6 +44,8 @@
 [linux to go安装教程](documents/linux_to_go安装教程.md)
 
 [CentOS-8虚拟机安装](documents/CentOS-8虚拟机安装.md)
+
+[配置CentOS-7虚拟机为本地服务器](documents/配置CentOS-7虚拟机为本地服务器.md)
 
 [linux常用命令快查](documents/linux常用命令快查.md)
 
