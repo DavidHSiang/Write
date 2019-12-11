@@ -3,11 +3,11 @@
 
 ### 科学上网
 
-[1. Ubuntu安装SSR](documents/Ubuntu安装SSR.md)
+[Ubuntu安装SSR](documents/Ubuntu安装SSR.md)
 
-[2. ubuntu下安装proxychains教程](documents/ubuntu下安装proxychains教程.md)
+[ubuntu下安装proxychains教程](documents/ubuntu下安装proxychains教程.md)
 
-[3. Ubuntu搭建SSR服务器](documents/Ubuntu搭建SSR服务器.md)
+[Ubuntu搭建SSR服务器](documents/Ubuntu搭建SSR服务器.md)
 
 -----
 
@@ -20,6 +20,8 @@
 [C-零碎知识点整理](documents/C-零碎知识点整理.md)
 
 [C-转义字符&反斜杠](documents/C-转义字符&反斜杠.md)
+
+[VS报错-TCHAR\*的实参与char\*的形参不兼容](documents\VS报错-TCHAR的实参与CHAR的形参不兼容.md)
 
 -----
 
@@ -60,6 +62,12 @@
 ### 操作系统
 
 [搭建自己的操作系统](documents/搭建自己的操作系统.md)
+
+-----
+
+### Bug解决
+
+[VS报错-TCHAR\*的实参与char\*的形参不兼容](documents\VS报错-TCHAR的实参与CHAR的形参不兼容.md)
 
 -----
 
