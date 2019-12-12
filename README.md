@@ -21,7 +21,7 @@
 
 [C-转义字符&反斜杠](documents/C-转义字符&反斜杠.md)
 
-[VS报错-TCHAR\*的实参与char\*的形参不兼容](documents\VS报错-TCHAR的实参与CHAR的形参不兼容.md)
+[VS报错-TCHAR\*的实参与char\*的形参不兼容](documents/VS报错-TCHAR的实参与CHAR的形参不兼容.md)
 
 -----
 
@@ -47,6 +47,12 @@
 
 -----
 
+### node.js
+
+[Windows下安装node.js](documents/Windows下安装node.js.md)
+
+-----
+
 ### linux
 
 [linux to go安装教程](documents/linux_to_go安装教程.md)
@@ -67,7 +73,7 @@
 
 ### Bug解决
 
-[VS报错-TCHAR\*的实参与char\*的形参不兼容](documents\VS报错-TCHAR的实参与CHAR的形参不兼容.md)
+[VS报错-TCHAR\*的实参与char\*的形参不兼容](documents/VS报错-TCHAR的实参与CHAR的形参不兼容.md)
 
 -----
 
