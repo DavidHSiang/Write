@@ -23,6 +23,8 @@
 
 [VS报错-TCHAR\*的实参与char\*的形参不兼容](documents/VS报错-TCHAR的实参与CHAR的形参不兼容.md)
 
+[VS报错-不安全函数](documents/VS报错-不安全函数.md)
+
 -----
 
 ### Git版本控制
@@ -74,6 +76,8 @@
 ### Bug解决
 
 [VS报错-TCHAR\*的实参与char\*的形参不兼容](documents/VS报错-TCHAR的实参与CHAR的形参不兼容.md)
+
+[VS报错-不安全函数](documents/VS报错-不安全函数.md)
 
 -----
 
