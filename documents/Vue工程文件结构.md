@@ -53,3 +53,9 @@ npm run dev
 | index.html   | 首页入口文件，你可以添加一些 meta 信息或统计代码啥的。       |
 | package.json | 项目配置文件。                                               |
 | README.md    | 项目的说明文档，markdown 格式                                |
+
+-----
+
+### 参考文档
+
+[Vue.js 目录结构](https://www.runoob.com/vue2/vue-directory-structure.html)
