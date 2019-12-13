@@ -27,6 +27,12 @@
 
 -----
 
+### JavaScript
+
+[JavaScript 比较和逻辑运算符](documents/JavaScript-比较和逻辑运算符.md)
+
+-----
+
 ### Git版本控制
 
 [Windows下安装Git--简化版](documents/Windows下安装Git--简化版.md)
