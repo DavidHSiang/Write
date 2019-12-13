@@ -56,3 +56,9 @@ cnpm install --global vue-cli
 若显示vue版本号，则代表安装成功
 
 **注意**：``-V``一定要是**大写**的"V"
+
+-----
+
+### 参考文档
+
+[Vue.js安装](https://www.runoob.com/vue2/vue-install.html)
