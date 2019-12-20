@@ -175,7 +175,7 @@
 
 **在给元素添加 v-model 属性时，默认会把 value 作为元素的属性，然后把 'input' 事件作为实时传递 value 的触发事件**
 
-> [实例](../examples/Vue模块语法/v-model 原理.html)：``v-model`` 原理
+> [实例](../examples/Vue模块语法/v-model原理.html)：``v-model`` 原理
 
 ``` html
 <div id ="app">
