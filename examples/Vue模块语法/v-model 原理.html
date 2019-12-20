@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>v-model 双向数据绑定</title>
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <input v-model="message" />
+        <input v-bind:value="message" v-on:input="message = $event.target.value" />
+        <!--运行实例可以看出,这两个input的效果是相同的-->
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: '123'
+            }
+        })
+    </script>
+</body>
+
+</html>
