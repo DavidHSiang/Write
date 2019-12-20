@@ -330,7 +330,7 @@ Vue.component('my-checkbox', {
 
   ``v-on`` 用于监听事件，并对用户的输入进行响应。在html标签中使用``v-on:事件名="函数/表达式"``来对事件进行监听，当事件触发时，Vue会运行" "中的函数/表达式，来对事件进行响应。" "中的函数在Vue构造器中的``methods``参数中声明
 
-> [实例](../examples/Vue模块语法/v-on 监听事件.html)：v-on 监听事件
+> [实例](../examples/Vue模块语法/v-on监听事件.html)：v-on 监听事件
 
 ``` html
 <div id="app">
