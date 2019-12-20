@@ -238,7 +238,7 @@ v-model 用在组件上时，有以下三种解决方法：
 
 1. 将**要绑定的属性设置为value**，在要监听的事件的触发方法中，**触发input事件**
 
-> [实例](../examples/Vue模块语法/Vue 自定义组件数据绑定.html)：Vue 自定义组件数据绑定
+> [实例](../examples/Vue模块语法/Vue自定义组件数据绑定.html)：Vue 自定义组件数据绑定
 
 ```javascript
  Vue.component('child', {
