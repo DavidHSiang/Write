@@ -126,7 +126,7 @@
 
 在**input 输入框**中我们可以使用 ``v-model`` 指令来实现双向数据绑定：
 
-> [实例](../examples/Vue模块语法/v-model 双向数据绑定.html)：``v-model`` 双向数据绑定
+> [实例](../examples/Vue模块语法/v-model双向数据绑定.html)：``v-model`` 双向数据绑定
 
 ``` html
 <div id="app">
