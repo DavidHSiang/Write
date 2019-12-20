@@ -28,7 +28,7 @@
     <p>对象：{{ {num : 15} }}</p>
     <p>函数对象：{{ getNum }}</p>
     <p>html代码(表达式)：{{ '<span> 15 </span>' }}</p>
-    <p>html代码(变量)：{{ html }}</p> 
+    <p>html代码(变量)：{{ html }}</p>
 </div>
 
 <script type="text/javascript">
@@ -76,7 +76,7 @@
 <div id="app">
     <div v-html="message"></div>
 </div>
-        
+
 <script>
     new Vue({
         el: '#app',
@@ -96,7 +96,7 @@
 
 ``v-bind``用于单向绑定html标签的属性。在html标签中使用``v-bind:属性名=" "``语句，Vue会对``" "``(引号)中的内容进行计算，将计算的结果作为该属性的**属性值**
 
-> [实例](../examples/Vue模块语法/v-bind 单向绑定属性.html)：``v-bind`` 绑定属性
+> [实例](../examples/Vue模块语法/v-bind单向绑定属性.html)：``v-bind`` 绑定属性
 
 ``` html
 <div id="app">
@@ -310,9 +310,9 @@ v-model 用在组件上时，有以下三种解决方法：
 
 ``` javascript
 <my-checkbox v-model="foo"></my-checkbox>
- 
+
 Vue.component('my-checkbox', {
-  tempalte: `<input 
+  tempalte: `<input
                type="checkbox"
                <!--这里就不用 input 了，而是 balabala-->
                @change="$emit('balabala', $event.target.checked)"
@@ -337,7 +337,7 @@ Vue.component('my-checkbox', {
     <p>{{ message }}</p>
     <button v-on:click="reverseMessage">反转字符串</button>
 </div>
-    
+
 <script>
 new Vue({
   el: '#app',
