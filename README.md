@@ -73,7 +73,8 @@
 2. [Vue-devtools安装教程](documents/Vue-devtools安装教程.md)
 3. [Vue工程文件结构](documents/Vue工程文件结构.md)
 4. [Vue构造器](documents/Vue构造器.md)
-5. [Vue.js模块语法](documents/Vue模块语法.md)
+5. [Vue.js模版语法](documents/Vue模版语法.md)
+6. [Vue.js条件语句](documents/Vue条件语句.md)
 
 -----
 

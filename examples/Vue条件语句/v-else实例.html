@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>v-else实例</title>
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p v-if="seen">true</p>
+        <p v-else>false</p>
+        <button @click="seen = !seen">点击按钮切换显示标签</button>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                seen: true
+            }
+        })
+    </script>
+</body>
+
+</html>
