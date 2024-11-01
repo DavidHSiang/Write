@@ -12,7 +12,7 @@ cargo install cargo-generate
 
 ## 2.使用 `cargo-generate` 创建项目
 
-在`cargo-generate`中，创建项目主要有 3 种方式：
+在 `cargo-generate`中，创建项目主要有 3 种方式：
 
 - 通过**Git 仓库**创建项目
 - 通过**本地文件**创建项目
@@ -99,7 +99,7 @@ post = ["echo '项目已成功生成！'", "git init"]
 
 在自定义模板时，我们可以使用占位符来实现模板的动态化。占位符通常使用双花括号包裹，例如 `{{project-name}} `或 `{{author}}`。这些占位符可以在项目生成时根据用户的输入进行替换，从而使项目具有个性化。在模板中，可以将占位符应用于文件名、目录名或者文件内容。
 
-在创建项目时，Cargo Generate 会自动提示用户为模板中的占位符输入相应的值。我们也可以通过 `.cargo-generate.toml` 文件的`[placeholders]`部分，为占位符设置默认值和校验规则。
+在创建项目时，Cargo Generate 会自动提示用户为模板中的占位符输入相应的值。我们也可以通过 `.cargo-generate.toml` 文件的 `[placeholders]`部分，为占位符设置默认值和校验规则。
 
 `[placeholders]`部分配置规则如下:
 
@@ -116,7 +116,7 @@ Cargo Generate 支持在模板中定义勾子函数（hook），这些函数可�
 - pre：在模板生成前执行命令，例如用于检查环境依赖。
 - post：在模板生成后执行命令，例如用于初始化项目配置或运行初始构建。
 
-我们可以通过`.cargo-generate.toml`文件的`[hooks]`部分定义勾子函数。例如：
+我们可以通过 `.cargo-generate.toml`文件的 `[hooks]`部分定义勾子函数。例如：
 
 ```toml
 [hooks]
