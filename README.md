@@ -34,6 +34,8 @@
 
 [Rust CI/CD 环境搭建](documents/rust_environment_construction.md)
 
+[Cargo Generate：快速从模板生成项目的 Rust 利器](documents/cargo-generate.md)
+
 ---
 
 ### JavaScript

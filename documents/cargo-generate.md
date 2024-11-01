@@ -26,6 +26,8 @@ cargo install cargo-generate
 cargo generate --git https://github.com/example/rust-template
 # 使用 example/rust-template 默认会到 github 中，去寻找 github.com/example/rust-template 仓库
 cargo generate example/rust-template
+# 你可以使用博主的模板
+cargo generate --git https://github.com/DavidHSiang/rust-simple-template
 ```
 
 这将会克隆模板仓库，并根据提示创建一个新的项目。
@@ -99,15 +101,35 @@ post = ["echo '项目已成功生成！'", "git init"]
 
 在自定义模板时，我们可以使用占位符来实现模板的动态化。占位符通常使用双花括号包裹，例如 `{{project-name}} `或 `{{author}}`。这些占位符可以在项目生成时根据用户的输入进行替换，从而使项目具有个性化。在模板中，可以将占位符应用于文件名、目录名或者文件内容。
 
+**占位符的使用示例**
+
+在 Cargo.toml 中：
+
+```toml
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{author}}"]
+license = "{{license}}"
+```
+
 在创建项目时，Cargo Generate 会自动提示用户为模板中的占位符输入相应的值。我们也可以通过 `.cargo-generate.toml` 文件的 `[placeholders]`部分，为占位符设置默认值和校验规则。
 
-`[placeholders]`部分配置规则如下:
+**配置占位符属性**
+在 `.cargo-generate.toml` 中，我们可以为占位符设置属性：
 
 - type：占位符的类型，可以是 string、bool 或 number。
 - prompt：提示用户输入的消息。
 - default：占位符的默认值，当用户没有输入时使用这个值。
 - choices：可选值列表，用户可以从中选择一个值。
 - validation：用于验证用户输入的正则表达式。
+
+**示例：自定义占位符**
+
+```toml
+[placeholders]
+include-database = { type = "bool", prompt = "Include database support?", default = true }
+```
 
 ### 3.3 定义勾子函数
 
@@ -120,15 +142,30 @@ Cargo Generate 支持在模板中定义勾子函数（hook），这些函数可�
 
 ```toml
 [hooks]
-pre = ["echo '准备开始生成项目...'"]
-post = ["echo '项目已成功生成！'"]
+pre = [
+    "echo 'Checking environment...'",
+    "rustc --version"
+]
+post = [
+    "echo 'Initializing Git repository...'",
+    "git init",
+    "git add .",
+    "git commit -m 'Initial commit'"
+]
 ```
 
-## 5.总结
+## 4.总结
 
 ```sh
 # 安装 cargo-generate
 cargo install cargo-generate
 # 使用 cargo-generate 生成项目
 cargo generate example/rust-template
+# 你可以使用博主的模板
+cargo generate --git https://github.com/DavidHSiang/rust-simple-template
 ```
+
+## 5. 参考资源
+
+[Cargo Generate 官方 GitHub](https://github.com/cargo-generate/cargo-generate)
+[Cargo Generate 官方文档](https://cargo-generate.github.io/cargo-generate/)
