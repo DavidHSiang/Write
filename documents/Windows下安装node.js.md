@@ -51,10 +51,10 @@ v12.13.1
 4. 最后编辑用户变量里的Path，将相应npm的路径改为：``<nodejs安装路径>\node_global``，如下：
 
     更改前：
-  ``C:\Users\<Username>\AppData\Roaming\npm``
+    ``C:\Users\<Username>\AppData\Roaming\npm``
 
     更改后：
-  ``<nodejs安装路径>\node_global``
+    ``<nodejs安装路径>\node_global``
 
 5. 配置完成
 
@@ -63,3 +63,5 @@ v12.13.1
 ### 参考文档
 
 [node.js 安装详细步骤教程](https://blog.csdn.net/antma/article/details/86104068)
+
+[Node.js 官网](https://nodejs.org/en)
