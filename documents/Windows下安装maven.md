@@ -26,7 +26,7 @@
 
 1. 新建变量M2_HOME或MAVEN_HOME，变量值为maven目录地址
 
-![配置M2_HOME](../pictures/Windows下安装maven/配置M2_HOME.png)
+![配置M2_HOME](http://lsky.davidhsiang.top/i/2024/11/04/6727a46783085.png)
 
 注：MAVEN_HOME是maven 1的写法、M2_HOME是maven 2的写法。
 
@@ -34,13 +34,13 @@
 
 2. 在变量名为Path下，新建变量值为maven的bin目录地址
 
-![配置PATH](../pictures/Windows下安装maven/配置PATH.png)
+![配置PATH](http://lsky.davidhsiang.top/i/2024/11/04/6727a469ce758.png)
 
 #### 3. 验证环境是否配置成功
 
 在cmd下，输入命令：``mvn -v``验证是否配置成功
 
-![验证环境是否配置成功](../pictures/Windows下安装maven/验证环境是否配置成功.png)
+![验证环境是否配置成功](http://lsky.davidhsiang.top/i/2024/11/04/6727a46f153bd.png)
 
 #### 4. 安装完成
 

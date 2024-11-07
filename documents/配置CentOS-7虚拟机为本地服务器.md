@@ -67,7 +67,7 @@ DNSI=192.168.70.2
 
 > 结果：
 
-![ipconfig结果](../pictures/配置CentOS-7虚拟机为本地服务器/ipconfig结果.png)
+![ipconfig结果](http://lsky.davidhsiang.top/i/2024/11/04/6728265a0996e.png)
 
 可以看到，IP地址为刚才设置的192.168.70.155：``inet 192.168.70.155``
 
@@ -75,44 +75,44 @@ DNSI=192.168.70.2
 
 > 结果：
 
-![ping外网](../pictures/配置CentOS-7虚拟机为本地服务器/ping外网.png)
+![ping外网](http://lsky.davidhsiang.top/i/2024/11/04/6728265f11fae.png)
 
 3. 在windows下ping Linux:``ping 192.168.70.155``
 
 > 结果：
 
-![pingLinux](../pictures/配置CentOS-7虚拟机为本地服务器/pingLinux.png)
+![pingLinux](http://lsky.davidhsiang.top/i/2024/11/04/6728268a254a7.png)
 
 ### 5. 通过SecureFX创建远程连接
 
 1. 创建一个新的连接
 
-![创建一个新的连接](../pictures/配置CentOS-7虚拟机为本地服务器/创建一个新的连接.png)
+![创建一个新的连接](http://lsky.davidhsiang.top/i/2024/11/04/67282691bc0d5.png)
 
 2. 选择SSH2，继续
 
-![选择SSH2继续](../pictures/配置CentOS-7虚拟机为本地服务器/选择SSH2继续.png)
+![选择SSH2继续](http://lsky.davidhsiang.top/i/2024/11/04/6728269953391.png)
 
 3. 填入主机名和用户名
 
-![填入主机名和用户名](../pictures/配置CentOS-7虚拟机为本地服务器/填入主机名和用户名.png)
+![填入主机名和用户名](http://lsky.davidhsiang.top/i/2024/11/04/6728269eb9c37.png)
 
 4. 选择SFTP
 
-![选择SFTP](../pictures/配置CentOS-7虚拟机为本地服务器/选择SFTP.png)
+![选择SFTP](http://lsky.davidhsiang.top/i/2024/11/04/672827463dd47.png)
 
 5. 输入会话名称
 
-![输入会话名称](../pictures/配置CentOS-7虚拟机为本地服务器/输入会话名称.png)
+![输入会话名称](http://lsky.davidhsiang.top/i/2024/11/04/672826a5980d8.png)
 
 6. 接受并保存密钥
 
-![接受并保存密钥](../pictures/配置CentOS-7虚拟机为本地服务器/接受并保存密钥.png)
+![接受并保存密钥](http://lsky.davidhsiang.top/i/2024/11/04/672826ac3eebe.png)
 
 7. 输入用户名密码
 
-![输入用户名密码](../pictures/配置CentOS-7虚拟机为本地服务器/输入用户名密码.png)
+![输入用户名密码](http://lsky.davidhsiang.top/i/2024/11/04/6728273509a1a.png)
 
 8. 连接成功
 
-![连接成功](../pictures/配置CentOS-7虚拟机为本地服务器/连接成功.png)
+![连接成功](http://lsky.davidhsiang.top/i/2024/11/04/67282753b3350.png)

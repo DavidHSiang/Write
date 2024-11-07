@@ -13,9 +13,9 @@ vue init webpack my-project
 
 这里需要进行一些配置，默认回车即可:
 
-![创建vue工程](../pictures/vue.js文件结构/创建vue工程.png)
+![创建vue工程](http://lsky.davidhsiang.top/i/2024/11/04/6728262f58b49.png)
 
-![创建vue工程完毕](../pictures/vue.js文件结构/创建vue工程完毕.png)
+![创建vue工程完毕](http://lsky.davidhsiang.top/i/2024/11/04/6728262a5ab3d.png)
 
 #### (2)运行vue项目
 
@@ -29,7 +29,7 @@ npm run dev
 
 成功执行以上命令后访问 http://localhost:8080/ ，输出结果如下所示：
 
-![vue工程启动结果](../pictures/vue.js文件结构/vue工程启动结果.png)
+![vue工程启动结果](http://lsky.davidhsiang.top/i/2024/11/04/67282623df1a2.png)
 
 ### 二、Vue.js 目录结构
 
@@ -37,7 +37,7 @@ npm run dev
 
 使用Atom(IDE)打开工程文件夹，可看到工程目录
 
-![vue工程目录](../pictures/vue.js文件结构/vue工程目录.png)
+![vue工程目录](http://lsky.davidhsiang.top/i/2024/11/04/67282644a4f7a.png)
 
 #### (2) 目录解析
 

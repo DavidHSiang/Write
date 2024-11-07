@@ -4,11 +4,11 @@
 
 ### 1. 设置安装目录
 
-![设置安装目录](../pictures/Git安装/设置安装目录.png)
+![设置安装目录](http://lsky.davidhsiang.top/i/2024/11/04/6727a4800fa18.png)
 
 ### 2.安装的相关设置
 
-![安装的相关设置](../pictures/Git安装/安装的相关设置.png)
+![安装的相关设置](http://lsky.davidhsiang.top/i/2024/11/04/6727a484dfb49.png)
 
 * 附加图标
 	* 添加快捷方式到桌面
@@ -23,7 +23,7 @@
 
 ### 3. 创建开始菜单目录
 
-![创建开始菜单目录](../pictures/Git安装/创建开始菜单目录.png)
+![创建开始菜单目录](http://lsky.davidhsiang.top/i/2024/11/04/6727a48ade22f.png)
 
 设置开始菜单目录名字
 
@@ -32,7 +32,7 @@
 
 ### 4.  选择Git使用的默认编辑器
 
-![使用vim编辑器](../pictures/Git安装/使用vim编辑器.png)
+![使用vim编辑器](http://lsky.davidhsiang.top/i/2024/11/04/6727a48fae3f0.png)
 
 >Use the Nano editor by default
 ``默认使用 Nano 编辑器``
@@ -49,7 +49,7 @@
 
 ### 5.配置PATH环境
 
-![配置PATH](../pictures/Git安装/配置PATH.png)
+![配置PATH](http://lsky.davidhsiang.top/i/2024/11/04/6727a49483ea8.png)
 
 >Use Git from Git Bash only
 >``这是最安全的选择，因为您的PATH根本不会被修改。您只能使用 Git Bash 的 Git 命令行工具。``
@@ -62,7 +62,7 @@
 
 ### 6. 选择HTTPS传输后端
 
-![选择与远程库连接的方式](../pictures/Git安装/选择与远程库连接的方式.png)
+![选择与远程库连接的方式](http://lsky.davidhsiang.top/i/2024/11/04/6727a4c188da0.png)
 
 >Use the OpenSSL library
 ``使用 OpenSSL 库``
@@ -74,7 +74,7 @@
 
 ### 7.  **配置行结束转换**
 
-![设置换行符转换的方式](../pictures/Git安装/设置换行符转换的方式.png)
+![设置换行符转换的方式](http://lsky.davidhsiang.top/i/2024/11/04/6727a4af66fb4.png)
 
 >Checkout Windows-style,commit Unix-style line endings
 ``在检出文本文件时，Git会将LF转换为CRLF。当提交文本文件时，CRLF将转换为LF。 对于跨平台项目，这是Windows上推荐的设置（“core.autocrlf”设置为“true”）``
@@ -87,7 +87,7 @@
 
 ### 8.配置终端模拟器以与 Git Bash 一起使用
 
-![设置终端](../pictures/Git安装/设置终端.png)
+![设置终端](http://lsky.davidhsiang.top/i/2024/11/04/6727a4a9aeecf.png)
 
 > Use MinTTY (the default terminal of MSYS2)
 ``Git Bash将使用MinTTY作为终端模拟器``
@@ -99,7 +99,7 @@
 
 ### 9. 配置额外的选项
 
-![启用功能](../pictures/Git安装/启用功能.png)
+![启用功能](http://lsky.davidhsiang.top/i/2024/11/04/6727a4a371f4f.png)
 
 >Enable file system caching
 ``启用文件系统缓存``
@@ -115,7 +115,7 @@
 
 ### 10. 配置额外的选项 - 2
 
-![实验性的内置外接程序](../pictures/Git安装/实验性的内置外接程序.png)
+![实验性的内置外接程序](http://lsky.davidhsiang.top/i/2024/11/04/6727a49f1fcf3.png)
 
 ``启用实验性的内置外接程序-i/-p``
 

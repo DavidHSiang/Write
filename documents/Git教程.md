@@ -55,7 +55,7 @@
 * 功能：提交暂存区中的file文件
 * 输入次命令后，会进入一个新的窗口，输入本次提交的相关备注
 
-![本次提交的相关备注](../pictures/Git教程/本次提交的相关备注.png)
+![本次提交的相关备注](http://lsky.davidhsiang.top/i/2024/11/04/6727a40cdbcd0.png)
 
 * 输入相关信息后，保存退出即可
 
@@ -66,7 +66,7 @@
 * 命令：``git log``
   * 效果：
 
-    ![git-log显示效果](../pictures/Git教程/git-log显示效果.png)
+    ![git-log显示效果](http://lsky.davidhsiang.top/i/2024/11/04/6727a41ab3fac.png)
 
   * 多屏显示控制方式
     * 空格：向下翻页
